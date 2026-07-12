@@ -3,6 +3,24 @@
 // Omit "meta" for no header line, or "tip" to hide the Scoutmaster tip box.
 const RECIPES = [
   {
+    name: 'Placeholder',
+    ingredients: [
+      'Replace here'
+    ],
+    steps: [
+      'Replace here'
+    ]
+  },
+  {
+    name: 'Placeholder',
+    ingredients: [
+      'Replace here'
+    ],
+    steps: [
+      'Replace here'
+    ]
+  },
+  {
     name: 'Cast-Iron Venison Chili',
     meta: 'Serves 12 · 1 hr 30 min',
     ingredients: [
@@ -81,14 +99,5 @@ const RECIPES = [
       'Serve warm with whipped cream.'
     ],
     tip: 'Resist stirring the layers: that’s what gives cobbler its crisp top and gooey base.'
-  },
-  {
-    name: 'Placeholder',
-    ingredients: [
-      'Replace here'
-    ],
-    steps: [
-      'Replace here'
-    ]
   }
 ];
