@@ -42,7 +42,7 @@ const RECIPES = [
       'Cook 12-15 minutes per side, until meat is cooked through.',
       'Open carefully (steam!) and serve with warm tortillas.'
     ],
-    tip: 'Double-wrap every packet — a single layer tears on rocky coals and dumps your dinner in the fire.'
+    tip: 'Double-wrap every packet: a single layer tears on rocky coals and dumps your dinner in the fire.'
   },
   {
     name: 'Dutch Oven Cornbread',
@@ -59,7 +59,7 @@ const RECIPES = [
       'Mix cornbread batter according to package directions, folding in cheese if using.',
       'Pour into the Dutch oven and cover with lid.',
       'Place 8 coals below and 14 coals on the lid; bake 25-30 minutes.',
-      'Check with a toothpick — it should come out clean.'
+      'Check with a toothpick: it should come out clean.'
     ],
     tip: 'Rotate the oven and lid a quarter turn every 10 minutes for even baking without a hot spot.'
   },
@@ -75,12 +75,12 @@ const RECIPES = [
     ],
     steps: [
       'Pour peaches with juice into a lined Dutch oven.',
-      'Sprinkle cake mix evenly over the peaches — do not stir.',
+      'Sprinkle cake mix evenly over the peaches; do not stir.',
       'Dot the top with butter slices and dust with cinnamon.',
       'Cover and bake with 8 coals below, 16 on the lid, about 30 minutes.',
       'Serve warm with whipped cream.'
     ],
-    tip: 'Resist stirring the layers — that’s what gives cobbler its crisp top and gooey base.'
+    tip: 'Resist stirring the layers: that’s what gives cobbler its crisp top and gooey base.'
   },
   {
     name: 'Placeholder',

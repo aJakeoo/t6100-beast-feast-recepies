@@ -32,7 +32,7 @@ function renderRecipe(recipe) {
 
   if (recipe.tip) {
     const tip = el('div', 'recipe-card__tip');
-    const label = el('span', 'recipe-card__tip-label', 'Scoutmaster tip — ');
+    const label = el('span', 'recipe-card__tip-label', 'Scoutmaster tip: ');
     tip.appendChild(label);
     tip.appendChild(document.createTextNode(recipe.tip));
     stepsCol.appendChild(tip);
