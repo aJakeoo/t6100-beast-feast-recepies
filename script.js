@@ -6,23 +6,24 @@ function el(tag, className, text) {
 }
 
 function renderPhoto(recipe) {
+  const wrap = el('div', 'recipe-card__photo-wrap');
   if (recipe.photo) {
     const img = document.createElement('img');
     img.className = 'recipe-card__photo';
     img.src = recipe.photo;
     img.alt = recipe.name;
-    return img;
+    wrap.appendChild(img);
+    return wrap;
   }
-  const placeholder = el('div', 'recipe-card__photo recipe-card__photo--placeholder');
-  placeholder.innerHTML = '<svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="5.5" width="19" height="14" rx="2"/><circle cx="12" cy="12.5" r="3.5"/><path d="M8 5.5l1.5-2h5l1.5 2"/></svg>';
-  placeholder.appendChild(el('div', 'recipe-card__photo-text', 'Photo coming soon'));
-  return placeholder;
+  const placeholder = el('div', 'recipe-card__photo--placeholder');
+  placeholder.innerHTML = '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>';
+  placeholder.appendChild(el('div', 'recipe-card__photo-text', 'Placeholder... coming soon!'));
+  wrap.appendChild(placeholder);
+  return wrap;
 }
 
 function renderRecipe(recipe) {
   const card = el('article', 'recipe-card');
-
-  card.appendChild(renderPhoto(recipe));
 
   const head = el('div', 'recipe-card__head');
   head.appendChild(el('div', 'recipe-card__name', recipe.name));
@@ -32,6 +33,7 @@ function renderRecipe(recipe) {
   card.appendChild(head);
 
   const body = el('div', 'recipe-card__body');
+  body.appendChild(renderPhoto(recipe));
 
   const ingredientsCol = el('div', 'recipe-card__ingredients');
   ingredientsCol.appendChild(el('div', 'recipe-card__label', 'Ingredients'));
