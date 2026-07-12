@@ -8,3 +8,5 @@
   - Commit: 4b482f9 (remove), c77330f (restore)
 - Restored the page header and removed em dashes from recipe copy per project convention.
   - Commit: c77330f
+- Added a second Placeholder card and moved both to the top of the recipe list.
+  - Commit: 8b37561
