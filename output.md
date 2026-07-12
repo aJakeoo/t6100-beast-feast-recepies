@@ -12,3 +12,5 @@
   - Commit: 8b37561
 - Added an optional photo field per recipe; cards without one show a "Photo coming soon" placeholder.
   - Commit: c4c5bf1
+- Re-imported the design (it had been updated to a 3-column card grid: photo, ingredients, steps at 1140px max width, with a scout-green Scoutmaster tip box instead of navy). Matched the site to it and changed the photo placeholder copy to "Placeholder... coming soon!" per request.
+  - Commit: f6cdd52
