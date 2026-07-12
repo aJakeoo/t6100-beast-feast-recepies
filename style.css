@@ -67,6 +67,32 @@ a:hover { color: var(--crimson); }
   overflow: hidden;
 }
 
+.recipe-card__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.recipe-card__photo--placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--page-bg);
+  color: var(--navy);
+  opacity: 0.45;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.recipe-card__photo-text {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .recipe-card__head {
   background: var(--khaki);
   padding: 22px 32px;

@@ -1,6 +1,8 @@
 // Add or edit Beast Feast recipes here. Each entry can include:
-//   name (required), meta, ingredients (array), steps (array), tip
+//   name (required), meta, photo, ingredients (array), steps (array), tip
 // Omit "meta" for no header line, or "tip" to hide the Scoutmaster tip box.
+// Omit "photo" (or leave it unset) to show the "Photo coming soon" placeholder;
+// set it to an image URL/path once a real photo is available.
 const RECIPES = [
   {
     name: 'Placeholder',
