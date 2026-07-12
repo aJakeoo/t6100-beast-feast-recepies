@@ -10,3 +10,5 @@
   - Commit: c77330f
 - Added a second Placeholder card and moved both to the top of the recipe list.
   - Commit: 8b37561
+- Added an optional photo field per recipe; cards without one show a "Photo coming soon" placeholder.
+  - Commit: c4c5bf1
